@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap" rel="stylesheet">   
+    <title>KathaLok</title>
+    <style>
+        * {margin: 0; padding: 0; background-color: #F8E7D5;}
+        body { font-family: sans-serif; text-align: center; }
+        p {padding: 0; margin: 0;}
+        
+        /* Center everything inside the header */
+        header { 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            justify-content: center;
+            padding: 16px;
+        }
+
+        #app_logo { height: 100px; width: 100px; }
+        #app_title { font-size: 24px; color: #212121; font-weight: bold; margin-top: 8px; }
+        #app_sub_title { color: #AAAAAA; font-size: 16px; margin-top: 4px; }
+        #about_app {
+            color: #212121;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 2%;
+            font-size: 32px;
+            font-family: "Bilbo Swash Caps", monospace;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #212121;
+            color: white;
+            padding: 16px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        footer p {
+            background-color: transparent;
+        }
+        footer > a {
+            color: white;
+            background-color: transparent;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img id="app_logo" src="app_logo.png">
+        <p id="app_title">KathaLok</p>
+        <p id="app_sub_title">A world of stories</p>
+    </header>
+
+    <p id="about_app">Explore timeless tales of gods, heroes, and ancient wisdom, all in one place.</p>
+
+    <footer>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <p> &copy; 2025 KathaLok. All rights reserved.</p>
+    </footer>
+</body>
+</html>
